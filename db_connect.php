@@ -1,0 +1,12 @@
+<?php
+    if(!defined('DB_SERVER'))
+        define('DB_SERVER','localhost');
+    if(!defined('BD_USER'))
+        define('DB_USER','root');
+    if(!defined('DB_PASSWORD'))
+        define('DB_PASSWORD','');
+    if(!defined('DB_NAME'))
+        define('DB_NAME','stagiaire');
+    if(!defined('DSN'))
+        define('DSN','mysql:host='.DB_SERVER.';dbname='.DB_NAME);
+?>
